@@ -1,6 +1,6 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
-  var = array.count{ |ele| ele.is_a?(String) } 
+  var = array.count{ |element| element.is_a?(String) } 
   p var
 end
 
