@@ -3,5 +3,5 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-   array.count{ |element| element.to_s.start_with?('b') }
+   array.count{ |element| element.to_s.start_with?(' ') }
 end
