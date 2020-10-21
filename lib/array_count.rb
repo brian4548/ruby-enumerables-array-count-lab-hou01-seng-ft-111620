@@ -3,5 +3,5 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-   array.count{ |element| element.start_with?("") }
+   array.count{ |element| element.match start_with?("") }
 end
